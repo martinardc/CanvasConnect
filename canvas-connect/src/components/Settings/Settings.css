@@ -1,0 +1,58 @@
+.editpage-container {
+    display: flex;
+    background-color: white;
+    height: 100vh;
+}
+
+.side-editpage {
+    flex: 1;
+}
+
+.side-editpage h1 {
+    font-family: 'Inter';
+    margin: 3rem 1rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color: #ee4949;
+}
+
+.side-editpage h3 {
+    font-family: 'Inter';
+    margin: 1.5rem 1rem;
+    font-weight: 500;
+}
+
+.side-editpage {
+    flex: 1;
+    padding: 2rem;
+    transition: margin-left 0.3s ease;
+}
+
+.settings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings-list li {
+    background: #fff;
+    padding: 0.9rem 1.2rem;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.171);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.settings-list li:hover {
+    background: #f1f5f9;
+    color: #2b6cb0;
+    transform: translateX(4px);
+}
+
+.settings-list a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}

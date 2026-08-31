@@ -1,0 +1,29 @@
+
+.env
+.env.*
+*.env
+
+
+node_modules/
+.next/
+
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+
+canvas-connect-py/uploads/
+
+
+MONGODB CANVAS.txt
+mongodb.txt
+
+
+.DS_Store
+
+canvas-connect-py/config.py
+
+/mongodb setup.png
+canvas-connect-git-backup/

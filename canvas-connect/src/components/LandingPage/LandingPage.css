@@ -1,0 +1,181 @@
+.lp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: #eff8fd;
+}
+
+.left-side {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+.right-side {
+    display: flex;
+    height: 100vh;
+}
+
+
+#logo-img {
+    width: 60px;
+    object-position: -20%;
+}
+
+.page-title {
+    font-family: 'Dancing Script';
+    color: #656f4a;
+    font-size: 6rem;
+
+}
+
+.logo-title {
+    padding-left: 20px;
+    padding-right: 25px;
+    background: radial-gradient(ellipse at center,
+            rgba(255, 147, 147, 0.466) 10%,
+            rgba(255, 77, 77, 0.226) 20%,
+            rgba(255, 77, 77, 0) 73%);
+}
+
+.left-side h1,
+h4 {
+    font-family: 'Inter';
+    margin-bottom: 0;
+    margin-top: 0.8em;
+    color: #656f4a;
+}
+
+
+.left-side h1 {
+    font-size: 2.5rem;
+}
+
+.left-side h4 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+@media (max-width: 948px) {
+    .register-btn-lp {
+        top: 55vh;
+        right: 42.5%;
+    }
+
+    .login-btn-lp {
+        top: 63vh;
+        right: 45.5%;
+    }
+
+    .cont-guest {
+        top: 80vh;
+        right: 43.5%;
+    }
+
+    .left-side {
+        margin-top: 2em;
+        height: 300px;
+    }
+
+    .right-side {
+        height: 770px;
+        margin-left: 10em;
+    }
+
+    .lp-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.left-side p {
+    font-family: 'Inter';
+    width: 30rem;
+    color: #656f4a;
+    font-size: 1rem;
+}
+
+.radius-btn {
+    height: 13rem;
+    position: absolute;
+    z-index: 2;
+    top: 7.8rem;
+    right: 12.5%;
+}
+
+.radius-btn-l {
+    height: 13rem;
+    position: absolute;
+    z-index: 2;
+    top: 16.4rem;
+    right: 13%;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.canvas-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 3 / 4;
+}
+
+.canvas-img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.canvas-buttons {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 50%;
+}
+
+.canvas-buttons a {
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+}
+
+.register-btn-lp {
+    background-color: #556B2F;
+    color: white;
+}
+
+.login-btn-lp {
+    background-color: #8B3A3A;
+    color: white;
+}
+
+.cont-guest {
+    background-color: transparent;
+    color: #333;
+    font-size: 0.9rem;
+}

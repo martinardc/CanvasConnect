@@ -1,0 +1,156 @@
+.editpage-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+.sidebar-left {
+    transition: width 0.3s ease;
+}
+
+.sidebar-left.expanded {
+    width: 250px;
+}
+
+.sidebar-left.collapsed {
+    width: 70px;
+}
+
+
+.edit-profile-container {
+    margin-top: 2rem;
+    background: #ffffff; 
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.profile-info {
+    margin-bottom: 1.5rem;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+ }
+
+.edit-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.edit-form input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-btn {
+    background: #9bb8cd;
+    color: white;
+}
+
+.save-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.cancel-btn {
+    background: #f44336;
+    color: white;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+}
+.sidebar-left {
+    width: 250px;
+    transition: width 0.3s ease;
+}
+.view-navbar {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1000;
+    width: 30px;
+    cursor: pointer;
+    background-color: #e6f2ff;
+    
+}
+
+.view-navbar.hide {
+    display: none;
+}
+
+
+.sidebar-left.expanded {
+    width: 220px;   
+    transition: width 0.3s ease;
+    background-color: #e6f2ff;
+}
+
+.sidebar-left.collapsed {
+    width: 60px;    
+    transition: width 0.3s ease;
+    
+    box-shadow: -2px 2px 4px rgba(87, 184, 232, 0.1);
+}
+
+.icon-text-content span {
+    display: inline-block;
+}
+
+.sidebar-left.collapsed .icon-text-content span {
+    display: none;
+}
+
+.sidebar-left.expanded .icon-text-content img {
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.settings-list li.active {
+    background: #f3f4f6; 
+    color: #1a202c; 
+    font-weight: 600;
+}
+
+.main-editpage {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.settings-comp {
+    flex: 0 0 25%;
+    
+    box-shadow: 4px 0 6px -2px rgba(0,0,0,0.2);
+    margin-right: 0.5em;
+}
+
+.edit-profile-container {
+    flex: 0 0 75%;
+}

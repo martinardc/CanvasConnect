@@ -1,0 +1,96 @@
+.gallery-page {
+    font-family: 'Inter';
+    margin: 2rem;
+}
+
+.gallery-list {
+    max-width: 900px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    margin-left: 3.2rem;
+    margin-bottom: 1.5rem;
+    color: #2c2c2c;
+}
+
+.gallery-list-link {
+    text-decoration: none;
+}
+
+.gallery-card {
+    display: block;
+    background-color: #e6f1fb;
+    border: 1px solid #c5dbf0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+    transition: box-shadow 0.15s ease;
+    
+}
+
+.gallery-title {
+    color:#8B3A3A;
+    font-size: larger;
+    padding-left: 6px;
+    font-weight: 600;
+    margin-bottom: 0;
+    max-width: 60%;
+}
+
+.gallery-description {
+    color: dimgray;
+    font-size: smaller;
+    padding-left: 6px;
+    margin: 0;
+    max-width: 60%;
+}
+
+.gallery-preview-images {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.gallery-preview-thumb {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* [id].js  */
+
+
+.gallery-detail {
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.id-gallery-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    color: #8b3a3a;
+}
+
+.id-gallery-description {
+    color: #555;
+    margin: 0 0 1.5rem 0;
+}
+
+.work-description {
+    font-weight: 400;
+    margin-bottom: 6px;
+    margin-left: 2px;    
+    font-size: smaller;
+} 
+
+

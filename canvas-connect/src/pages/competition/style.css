@@ -1,0 +1,180 @@
+body {
+    font-family: 'Inter';
+    margin: 2rem;
+}
+
+.competition-list {
+    max-width: 900px;
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.competition-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #2c2c2c;
+
+}
+
+.competition-card {
+    display: block;
+    background-color: #fdf6ee;
+    border: 1px solid #e0d5c5;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+    transition: box-shadow 0.15s ease;
+}
+
+.competition-card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.competition-card h3 {
+    margin: 0 0 0.3rem 0;
+    color: #2c2c2c;
+}
+
+.competition-card p {
+    margin: 0.2rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+/* [id].js */
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.work-item {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.8rem;
+    background-color: #e6f2ff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: black;    
+}
+
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; 
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.work-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-title {
+    font-weight: 800;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.work-username {
+    font-size: smaller;
+    font-weight: 200;
+    color: dimgray;
+    margin: 2px;
+}
+.competition-detail {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.competition-detail h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+    color: #2c2c2c;
+}
+
+.competition-detail p {
+    color: #555;
+    margin: 0.3rem 0;
+}
+
+.apply-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #fdf6ee;
+    border: 1px solid #e0d5c5;
+    border-radius: 8px;
+}
+
+.apply-section select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #9BB8CD;
+    background-color: white;
+}
+
+.apply-section button {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #7a9b76;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.apply-section button:hover {
+    background-color: #66875f;
+}
+
+.competition-closed {
+    padding: 0.8rem 1rem;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    color: #888;
+    font-style: italic;
+}
+
+.my-entries-section {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.entry-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.status-badge {
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.entry-status-pending .status-badge { color: #b8860b; }
+.entry-status-approved .status-badge { color: #2e7d32; }
+.entry-status-rejected .status-badge { color: #c62828; }
+
+
+
+
